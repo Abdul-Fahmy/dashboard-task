@@ -129,8 +129,8 @@ export default function Card({ settingInfo }) {
                 value={selectedValue}
                 className="bg-white focus:outline-none"
               >
-                <option value="ar">ar</option>
-                <option value="en">en</option>
+                <option value="ar">العربية</option>
+                <option value="en">English</option>
               </select>
             </div>
             <p>{t('descriptionLabel')} </p>
@@ -156,8 +156,8 @@ export default function Card({ settingInfo }) {
                 value={selectedValue}
                 className="bg-white focus:outline-none"
               >
-                <option value="ar">ar</option>
-                <option value="en">en</option>
+                <option value="ar">العربية</option>
+                <option value="en">English</option>
               </select>
             </div>
           </form>
